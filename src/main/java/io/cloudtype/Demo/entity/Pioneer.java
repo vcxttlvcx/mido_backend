@@ -23,7 +23,7 @@ public class Pioneer extends BaseEntity {
     @Id
     @Column(name = "pioneer_id")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int id;
+    private long id;
 
     @NonNull
     @Column(nullable = false)
